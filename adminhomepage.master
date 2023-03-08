@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="adminhomepage.master.cs" Inherits="adminhomepage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="adminhomepage.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <table align="center"style="width:1024px;">
+    <tr style="height:100px;">
+    <td style="color: #003300; text-align: center; background-color: #FFFF00; font-size: x-large;">EMPLOYEE TRANSPORT MANAGEMENT SYSTEM</td>
+    </tr>
+    <tr style="height:40px;" >
+    <td align="center">
+    <br />
+    <br />
+    <br />
+        <ul id="menu">
+            <li><a href=adminusers.aspx>USER</a></li>
+            <li><a href=admincabs.aspx>CABS</a></li>
+            <li><a href=admindrivers.aspx>DRIVERS</a></li>
+            <li><a href=adminbooking.aspx>ALLOCATION</a></li>
+            <li><a href=admincontactus.aspx>CONTACTUS</a></li>
+            <li><a href=adminfeedback.aspx>FEEDBACK</a></li>
+        </ul>
+    </td>
+    </tr>
+    <tr style="vertical-align:top;">
+    <td class="style1">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </td>
+    </tr>
+    <tr style="height:30px;">
+    <td style="background-color: #FFFF00">&nbsp;&nbsp;&nbsp;Copyright@2023ETMS</td>
+    </tr>
+    </table>
+    </div>
+    </form>
+</body>
+</html>
+

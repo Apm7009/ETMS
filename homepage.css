@@ -1,0 +1,26 @@
+﻿body {
+}
+#menu{
+    width:1110px;
+    background-color:#ff6a00;
+    height: 40px;
+    text-align: center;
+}
+#menu li{
+    width:155px;
+    height:30px;
+    padding-top:10px;
+    padding-left:15px;
+    padding-right:15px;
+    float:left;
+    font-size:18px;
+    list-style:none;
+}
+#menu li a{
+    color:#ffffff;
+    text-decoration:none;
+}
+#menu li a:hover{
+    color:#ffd800;
+    font-size:22px;
+}
